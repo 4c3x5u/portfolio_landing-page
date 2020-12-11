@@ -3,7 +3,7 @@ import './Head.css';
 import './bg-pageHead.jpg';
 
 const Head = () => ( 
-  <section className="Head d-flex justify-content-center align-items-center">
+  <section id="Head" className="d-flex justify-content-center align-items-center">
     <article className="Main d-block text-center pb-5">
       <h1 className="FullName text-light d-sm-none d-block mb-0">
           Alican Demirtas
@@ -29,6 +29,6 @@ const Head = () => (
       </div>
     </article>
   </section>
- );
+);
  
 export default Head;

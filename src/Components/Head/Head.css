@@ -1,4 +1,4 @@
-.Head {
+#Head {
     height: 100vh;
     background-image: url("bg-pageHead.jpg");
     background-position: center;
@@ -6,20 +6,20 @@
     background-repeat: no-repeat;
 }
 
-    .Head .FullName {
+    #Head .FullName {
         font-size: 80pt;
         font-family: Slabo, serif;
         color: #EEFBEE;
     }
 
-    .Head .Profession {
+    #Head .Profession {
         font-size: 40pt;
         font-family: Bitter, serif;
         background: rgb(255,255,255);
         background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(31,76,82,1) 30%, rgba(31,76,82,1) 60%, rgba(255,255,255,0) 100%);
     }
 
-.Head .AboutButton {
+#Head .AboutButton {
     border: 1px solid #f9f9f9;
     background: rgb(112,140,144);
     background: radial-gradient(circle, rgba(112,140,144,1) 0%, rgba(31,76,82,1) 25%, rgba(35,35,37,1) 100%);
@@ -30,7 +30,7 @@
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
-    .Head .AboutButton:hover {
+    #Head .AboutButton:hover {
         color: #1f4c52;
         background: #f9f9f9;
         -webkit-transition-duration: 0.5s;
@@ -39,20 +39,20 @@
         transition-duration: 0.5s;
     }
 
-    .Head .AboutButton .Text {
+    #Head .AboutButton .Text {
         font-family: Bitter, serif;
         font-size: 20pt;
     }
 
 @media (max-width: 750px) {
-    .Head .FullName {
+    #Head .FullName {
         font-size: 50pt;
     }
-    .Head .Profession {
+    #Head .Profession {
         font-size: 20pt;
     }
 
-    .Head .AboutButton .Text {
+    #Head .AboutButton .Text {
         font-size: 15pt;
     }
 }
