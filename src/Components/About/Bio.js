@@ -10,10 +10,12 @@ const Bio = () => (
 
       <div id="Bio" className="col-10 offset-1 pb-2 pt-1 mt-2 mb-4">
         <span className="Text lead">
-          I am a self-taught web developer with more than a year of experience developing software.<br />
-          I finally feel ready to look for a job in the field, and I am looking for a company<br />
-          that will provide a challenging environment in which I may be able to learn and grow.<br />
-          Despite my lack of commercial experience,<br/> I am a resourceful, attentive and diligent potential employee. <br />
+          I am a full-stack F# developer – a functional-first, cross-paradigm<br/>
+          language from the .NET development stack.<br/>
+          I am looking to move over to the world of JavaScript, and I am looking for a<br/>
+          company in which growth is encouraged and rewarded.<br/>
+          I am a resourceful, attentive, and diligent potential employee who persistently<br/>
+          seeks excellence, growth, and contribution.
         </span>
       </div>
 
