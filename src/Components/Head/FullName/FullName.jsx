@@ -1,7 +1,7 @@
 import React, { createRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const FullName = ({fullName}) => {
+const FullName = ({ fullName }) => {
   const animated = createRef();
   useEffect(() => (
     animated.current.classList.add('fadeInLeft', 'delay-1s')
@@ -19,7 +19,7 @@ const FullName = ({fullName}) => {
 };
 
 FullName.propTypes = {
-  fullName: PropTypes.string.isRequired
+  fullName: PropTypes.string.isRequired,
 };
- 
+
 export default FullName;

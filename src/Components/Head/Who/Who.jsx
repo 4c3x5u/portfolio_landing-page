@@ -7,7 +7,7 @@ const Who = () => {
     animatedOuter.current.classList.add('animated', 'fadeInUp', 'delay-2s');
     animatedInner.current.classList.add('animated', 'fadeIn', 'delay-3s');
   }, []);
-  return (  
+  return (
     <>
       <a className="AboutButton animated btn btn-outline-light py-2 px-3 d-sm-none" href="#About">
         <span className="Text h3">Who?!</span>
@@ -22,5 +22,5 @@ const Who = () => {
     </>
   );
 };
- 
+
 export default Who;

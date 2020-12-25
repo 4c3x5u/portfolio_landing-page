@@ -1,5 +1,5 @@
 import React from 'react';
-import Skill from './Skill';
+import Skill from './Skill/Skill';
 
 const KeySkills = () => (
   <article id="Skills" className="text-center pt-1 pb-5">
@@ -7,9 +7,9 @@ const KeySkills = () => (
       <div className="Main pt-4">
 
         <h4 className="Header col-4 offset-4 display-5 mt-0 pb-2 pt-0 mb-0 text-center font-weight-bold">
-            Key Skills
+          Key Skills
         </h4>
-        <div className="Filler col-4"></div>
+        <div className="Filler col-4" />
 
         <div className="SkillsRow row mb-5 pb-3">
           <Skill icon="far fa-window-restore" name="HTML / CSS / JS" description="Web Development Fundamentals" />
@@ -31,5 +31,5 @@ const KeySkills = () => (
     </div>
   </article>
 );
- 
+
 export default KeySkills;

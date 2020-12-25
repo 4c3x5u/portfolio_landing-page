@@ -5,7 +5,7 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: #f9f9f9;
-  background-image: url("bg-keySkills.jpg");
+  background-image: url("../../img/bg_key-skills.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   height: 12rem;
   width: 12rem;
   box-shadow: 0 0 3pt 3pt #1f4c52;
-  background-image: url("portrait.jpg");
+  background-image: url("../../img/portrait.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

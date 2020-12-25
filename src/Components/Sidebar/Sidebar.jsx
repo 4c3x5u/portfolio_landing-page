@@ -1,12 +1,12 @@
 import React, { createRef, useEffect } from 'react';
 import './Sidebar.css';
-import NavigationLink from './NavigationLink';
+import NavigationLink from './NavigationLink/NavigationLink';
 
 const Sidebar = () => {
   const toggler = createRef();
   const nav = createRef();
   useEffect(() => {
-    toggler.current.classList.add('animated', 'wobble', 'delay-2s'); 
+    toggler.current.classList.add('animated', 'wobble', 'delay-2s');
   }, []);
   const toggleNav = () => {
     toggler.current.classList.toggle('on');
@@ -15,8 +15,8 @@ const Sidebar = () => {
   };
   return (
     <div id="Sidebar">
-      <button ref={toggler} className="Toggler btn btn-dark" onClick={toggleNav}>
-        <i className="Icon far fa-compass fa-3x"></i>
+      <button type="button" ref={toggler} className="Toggler btn btn-dark" onClick={toggleNav}>
+        <i className="Icon far fa-compass fa-3x" />
       </button>
       <div ref={nav} className="Nav d-flex align-items-center text-center">
         <div className="Links d-block w-100">
@@ -29,5 +29,5 @@ const Sidebar = () => {
     </div>
   );
 };
- 
+
 export default Sidebar;

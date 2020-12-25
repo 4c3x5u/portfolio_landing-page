@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("bg-projects.jfif");
+  background-image: url("../../img/bg_projects.jfif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,21 +59,21 @@
 }
 
 #ProjectOne .Image {
-  background-image: url("portfolio-1.jpg");
+  background-image: url("../../img/portfolio-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #ProjectTwo .Image {
-  background-image: url("portfolio-2.jpg");
+  background-image: url("../../img/portfolio-2.jpg");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #ProjectThree .Image {
-  background-image: url("portfolio-3.jpg");
+  background-image: url("../../img/portfolio-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
