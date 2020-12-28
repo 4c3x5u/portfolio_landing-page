@@ -1,10 +1,18 @@
 [
   {
-    "id": "ProjectOne",
+    "id": "PizzaStore",
     "title": "Blazin Pizza CO.",
-    "description": "An interactive and responsive Pizza Store application that grants members points for the money they spend. The user can later use these points to redeem a free medium pizza. Also has a guest option where the point system is not utilized.",
-    "liveLink": "http://www.blazinpizza.co.uk/",
-    "codeLink": "https://github.com/demirtasdev/blazinpizzaco",
+    "description": "A full-stack JavaScript application (MERN) that I've built in an effort to put all my JS knowledge into a single coherent project. Please see the 'readme' document in the GitHub repo for a full list of features by clicking the 'Code' button below.",
+    "liveLink": "",
+    "codeLink": "https://github.com/4c3x5u/portfolio_pizza-store",
     "rightAlign": true
+  },
+  {
+    "id": "LandingPage",
+    "title": "My Online Portfolio",
+    "description": "The very page that you're visiting right now is a React application! Even though at its core it's just a static web page, I've chosen this approach to give myself even more of an exposure to React, since React is my choice when it comes to front-end development.",
+    "liveLink": "",
+    "codeLink": "https://github.com/4c3x5u/portfolio_pizza-store",
+    "rightAlign": false
   }
 ]

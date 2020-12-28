@@ -17,7 +17,7 @@
   {
     "icon": "fab fa-envira",
     "name": "MongoDB",
-    "description": "Scalable Document Databases"
+    "description": "Scalable BSON Document Database"
   },
   {
     "icon": "fab fa-sass",
