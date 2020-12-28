@@ -79,9 +79,29 @@
   background-repeat: no-repeat;
 }
 
-#JSONSerialisationInFSharp {
+.ViewAllButton {
+  border: 1px solid #f9f9f9;
+  background: rgb(112,140,144);
+  background: radial-gradient(circle, rgba(112,140,144,1) 0%, rgba(31,76,82,1) 25%, rgba(35,35,37,1) 100%);
+  background-color: #1f4c52;
+  box-shadow: 0.15rem 0.2rem 0.1rem black;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  font-family: Bitter, serif;
   margin-bottom: 4rem;
 }
+
+.ViewAllButton:hover {
+  color: #1f4c52;
+  background: #f9f9f9;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
 
 /*#ProjectFour .Image {
   background-image: url(../Images/portfolio-4.jpg);

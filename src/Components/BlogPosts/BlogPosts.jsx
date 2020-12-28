@@ -14,6 +14,17 @@ const BlogPosts = () => (
         {data.map((blogPost) => (
           <BlogPost key={blogPost.id} projectProps={{ ...blogPost }} />
         ))}
+        <a
+          className="ViewAllButton btn btn-dark py-2 px-3 mt-4 mb-5 d-inline-block col-10 offset-1"
+          href="https://www.compositional-it.com/news-blog/author/alican/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="Text h5 mb-0">
+            <i className="fas fa-eye fa-1x" />
+            {'  View All'}
+          </span>
+        </a>
       </div>
     </div>
   </section>
