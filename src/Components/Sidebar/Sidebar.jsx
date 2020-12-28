@@ -23,6 +23,7 @@ const Sidebar = () => {
           <NavigationLink href="#Head" text="Home" />
           <NavigationLink href="#About" text="About" />
           <NavigationLink href="#Projects" text="Projects" />
+          <NavigationLink href="#BlogPosts" text="Blog Posts" />
           <NavigationLink href="#Contact" text="Contact" />
         </div>
       </div>
