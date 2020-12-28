@@ -17,16 +17,16 @@
   {
     "icon": "fab fa-envira",
     "name": "MongoDB",
-    "description": "Scalable BSON Document Database"
+    "description": "The Leading NoSQL Document Database"
   },
   {
     "icon": "fab fa-sass",
     "name": "Sass",
-    "description": "Modern CSS Preprocessor"
+    "description": "A Modern CSS Preprocessor"
   },
   {
     "icon": "fab fa-bootstrap",
     "name": "Bootstrap",
-    "description": "Mobile-First Responsive Design"
+    "description": "Mobile-First Responsive UIs"
   }
 ]
