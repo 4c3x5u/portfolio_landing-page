@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './About.sass';
 import KeySkills from './KeySkills/KeySkills';
 import Bio from './Bio/Bio';
 
