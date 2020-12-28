@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlogPosts.css';
+import './BlogPosts.sass';
 import BlogPost from './BlogPost/BlogPost';
 import data from './data.json';
 
