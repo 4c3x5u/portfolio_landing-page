@@ -8,8 +8,8 @@ const BlogPostBody = ({
     <h4 className="Name">{title}</h4>
     <p className="Description lead">{description}</p>
     <a className="ViewButton btn btn-dark py-2 px-3 mt-3 mb-2 d-inline-block" href={link} target="_blank" rel="noreferrer">
-      <span className="Text h5 mb-0">
-        <i className="fas fa-eye" />
+      <span className="Text h5 mb-0 px-5">
+        <i className="far fa-eye" />
         {'  View'}
       </span>
     </a>

@@ -79,6 +79,13 @@
   background-repeat: no-repeat;
 }
 
+#WorkingWithReactComponentsInFSharp .Image {
+  background-image: url(./img/WorkingWithReactComponentsInFSharp.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .ViewAllButton {
   border: 1px solid #f9f9f9;
   background: rgb(112,140,144);
@@ -102,10 +109,3 @@
   transition-duration: 0.5s;
 }
 
-
-/*#ProjectFour .Image {
-  background-image: url(../Images/portfolio-4.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}*/
