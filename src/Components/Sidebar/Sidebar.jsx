@@ -1,5 +1,5 @@
 import React, { createRef, useEffect } from 'react';
-import './Sidebar.css';
+import './Sidebar.sass';
 import NavigationLink from './NavigationLink/NavigationLink';
 
 const Sidebar = () => {
