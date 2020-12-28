@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import Project from './Project/Project';
-import ProjectsList from './data';
+import data from './data.json';
 
 const Projects = () => (
   <section id="Projects" className="pt-5 pb-3">
@@ -11,8 +11,8 @@ const Projects = () => (
           <h4 className="Text pb-2 mt-2">My Projects</h4>
         </div>
         <div className="Filler col-md-2 col-xl-3" />
-        {ProjectsList.map((projectProps) => (
-          <Project key={projectProps.id} projectProps={projectProps} />
+        {data.map((project) => (
+          <Project key={project.id} projectProps={{ ...project }} />
         ))}
       </div>
     </div>

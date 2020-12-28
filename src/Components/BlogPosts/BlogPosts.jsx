@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlogPosts.css';
 import BlogPost from './BlogPost/BlogPost';
-import ProjectsList from './data.json';
+import data from './data.json';
 
 const BlogPosts = () => (
   <section id="BlogPosts" className="pt-5 pb-3">
@@ -11,8 +11,8 @@ const BlogPosts = () => (
           <h4 className="Text pb-2 mt-2">Blog Posts</h4>
         </div>
         <div className="Filler col-md-2 col-xl-3" />
-        {ProjectsList.map((projectProps) => (
-          <BlogPost key={projectProps.id} projectProps={projectProps} />
+        {data.map((blogPost) => (
+          <BlogPost key={blogPost.id} projectProps={{ ...blogPost }} />
         ))}
       </div>
     </div>

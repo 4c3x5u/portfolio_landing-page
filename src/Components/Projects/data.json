@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ProjectOne",
+    "title": "Blazin Pizza CO.",
+    "description": "An interactive and responsive Pizza Store application that grants members points for the money they spend. The user can later use these points to redeem a free medium pizza. Also has a guest option where the point system is not utilized.",
+    "liveLink": "http://www.blazinpizza.co.uk/",
+    "codeLink": "https://github.com/demirtasdev/blazinpizzaco",
+    "rightAlign": true
+  }
+]
