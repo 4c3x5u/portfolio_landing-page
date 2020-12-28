@@ -2,8 +2,22 @@
   {
     "id": "MyJourneyToFSharp",
     "title": "My Journey to F#",
-    "description": "I'm a self-taught software developer with about a year's experience coding in C#. My first job in the field, ironically, is an F# job. Here's how this happened and how I found the process of adapting to a totally new programming language and a totally new environment.",
+    "description": "I'm a self-taught software developer with about a year's experience coding in C#. My first job in the field, ironically, is an F# job. Here's how this happened and how I found the process of adapting to a totally new programming language and a totally...",
     "link": "https://www.compositional-it.com/news-blog/my-journey-to-f/",
+    "rightAlign": true
+  },
+  {
+    "id": "RoutingAndNavigationInElmishSPAs",
+    "title": "Routing and Navigation in Elmish SPAs",
+    "description": "Unlike multiple page applications, SPAs consist of a single page. We update the contents of this page depending on user actions (or other events) to create the perception of navigating to another page. To find out more about SPAs and the benefits of...",
+    "link": "https://www.compositional-it.com/news-blog/routing-and-navigation-with-elmish-spas/",
+    "rightAlign": false
+  },
+  {
+    "id": "JSONSerialisationInFSharp",
+    "title": "JSON Serialisation in F#",
+    "description": "The default option for a .NET developer when you need to parse some JSON is to use the JsonSerializer object from the System.Text.Json library. The problem is that this library hasn’t supported F# types until recently, and now it only supports them...",
+    "link": "https://www.compositional-it.com/news-blog/json-serialisation-in-f/",
     "rightAlign": true
   }
 ]

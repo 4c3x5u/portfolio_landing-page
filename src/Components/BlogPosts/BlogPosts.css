@@ -65,21 +65,21 @@
   background-repeat: no-repeat;
 }
 
-#ProjectTwo .Image {
-  background-image: url("../Projects/img/portfolio-2.jpg");
+#RoutingAndNavigationInElmishSPAs .Image {
+  background-image: url("./img/RoutingAndNavigationInElmishSPAs.jpg");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#ProjectThree .Image {
-  background-image: url("../Projects/img/portfolio-3.jpg");
+#JSONSerialisationInFSharp .Image {
+  background-image: url("./img/JSONSerialisationInFSharp.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#ProjectThree {
+#JSONSerialisationInFSharp {
   margin-bottom: 4rem;
 }
 
