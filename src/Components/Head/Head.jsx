@@ -3,7 +3,7 @@ import FullName from './FullName/FullName';
 import Profession from './Profession/Profession';
 import Who from './Who/Who';
 
-import './Head.css';
+import './Head.sass';
 
 const Head = () => (
   <section id="Head" className="d-flex justify-content-center align-items-center">
