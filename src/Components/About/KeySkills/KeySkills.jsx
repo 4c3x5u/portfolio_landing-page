@@ -1,5 +1,6 @@
 import React from 'react';
 import Skill from './Skill/Skill';
+import data from './data.json';
 
 const KeySkills = () => (
   <article id="Skills" className="text-center pt-1 pb-5">
@@ -12,12 +13,9 @@ const KeySkills = () => (
         <div className="Filler col-4" />
 
         <div className="SkillsRow row mb-5 pb-3">
-          <Skill icon="far fa-window-restore" name="HTML / CSS / JS" description="Web Development Fundamentals" />
-          <Skill icon="fas fa-code" name="C# .NET" description="Object Oriented Programming" />
-          <Skill icon="fas fa-laptop-code" name="ASP.NET MVC 5" description="Model-View-Controller" />
-          <Skill icon="fas fa-server" name="SQL Server 2016" description="Relational Database Development" />
-          <Skill icon="fab fa-etsy" name="Entity Framework" description="Object Relational Mapping (LINQ)" />
-          <Skill icon="fab fa-bootstrap" name="Bootstrap" description="Mobile-First Responsive Design" />
+          {data.map((skill) => (
+            <Skill icon={skill.icon} name={skill.name} description={skill.description} />
+          ))}
         </div>
 
         <a id="ProjectsButton" href="#Projects" className="btn btn-outline-light py-2 px-3 mt-3 mb-2 mx-2 d-inline-block">

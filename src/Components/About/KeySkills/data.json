@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "fas fa-laptop-code",
+    "name": "HTML, CSS, and JS",
+    "description": "Web Development Fundamentals"
+  },
+  {
+    "icon": "fab fa-react",
+    "name": "React",
+    "description": "Declarative Frontend Development"
+  },
+  {
+    "icon": "fab fa-node",
+    "name": "Node & Express",
+    "description": "JavaScript Backend Development"
+  },
+  {
+    "icon": "fab fa-envira",
+    "name": "MongoDB",
+    "description": "Scalable Document Databases"
+  },
+  {
+    "icon": "fab fa-sass",
+    "name": "Sass",
+    "description": "Modern CSS Preprocessor"
+  },
+  {
+    "icon": "fab fa-bootstrap",
+    "name": "Bootstrap",
+    "description": "Mobile-First Responsive Design"
+  }
+]
