@@ -11,14 +11,14 @@ const ProjectBody = ({
       <span className="Text h5 mb-0">
         <i className="fas fa-globe" />
         {' '}
-        See Live
+        Demo
       </span>
     </a>
     <a className="CodeButton btn btn-dark py-2 px-3 mt-3 mb-2 d-inline-block" href={codeLink} target="_blank" rel="noreferrer">
       <span className="Text h5 mb-0">
         <i className="fab fa-github" />
         {' '}
-        See Code
+        Code
       </span>
     </a>
   </div>

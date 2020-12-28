@@ -1,7 +1,9 @@
 import React from 'react';
-import './Projects.css';
 import Project from './Project/Project';
+
 import data from './data.json';
+
+import './Projects.sass';
 
 const Projects = () => (
   <section id="Projects" className="pt-5 pb-3">
