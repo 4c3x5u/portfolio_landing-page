@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css';
+import './Contact.sass';
 
 const Contact = () => (
   <section id="Contact" className="container-fluid bg-dark py-3 border-top border-dark">
