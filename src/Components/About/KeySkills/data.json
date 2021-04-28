@@ -1,23 +1,18 @@
 [
   {
-    "icon": "fas fa-laptop-code",
-    "name": "HTML, CSS, and JS",
-    "description": "Web Development Fundamentals"
+    "icon": "fab fa-python",
+    "name": "Django-REST",
+    "description": "Python Web API Development"
   },
   {
     "icon": "fab fa-react",
-    "name": "React",
+    "name": "React/Redux",
     "description": "Declarative Frontend Development"
   },
   {
     "icon": "fab fa-node",
-    "name": "Node & Express",
+    "name": "Node.js – Express",
     "description": "JavaScript Backend Development"
-  },
-  {
-    "icon": "fab fa-envira",
-    "name": "MongoDB",
-    "description": "The Leading NoSQL Document Database"
   },
   {
     "icon": "fab fa-sass",
@@ -25,8 +20,13 @@
     "description": "A Modern CSS Preprocessor"
   },
   {
-    "icon": "fab fa-bootstrap",
-    "name": "Bootstrap",
-    "description": "Mobile-First Responsive UIs"
+    "icon": "fas fa-database",
+    "name": "Database Admin",
+    "description": "Postgres, MSSQL, MongoDB, SQLite..."
+  },
+  {
+    "icon": "fas fa-cogs",
+    "name": "TDD & BDD",
+    "description": "Unit, Integration and Functional Testing"
   }
 ]

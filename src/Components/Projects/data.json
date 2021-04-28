@@ -11,7 +11,7 @@
     "id": "LandingPage",
     "title": "My Online Portfolio",
     "description": "The very page that you're visiting right now is a React application! Even though at its core it's just a static web page, I've chosen this approach to give myself even more of an exposure to React, since React is my choice when it comes to front-end development.",
-    "liveLink": "",
+    "liveLink": "/",
     "codeLink": "https://github.com/4c3x5u/portfolio_pizza-store",
     "rightAlign": false
   }

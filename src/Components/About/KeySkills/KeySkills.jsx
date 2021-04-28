@@ -7,7 +7,7 @@ const KeySkills = () => (
     <div className="SectionContainer container">
       <div className="Main pt-4">
 
-        <h4 className="Header col-4 offset-4 display-5 mt-0 pb-2 pt-0 mb-0 text-center font-weight-bold">
+        <h4 className="Header col-4 offset-4 display-5 mt-0 py-1 pt-0 mb-0 text-center font-weight-bold">
           Key Skills
         </h4>
         <div className="Filler col-4" />

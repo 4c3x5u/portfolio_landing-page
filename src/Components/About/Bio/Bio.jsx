@@ -12,11 +12,11 @@ const Bio = () => (
         <span className="Text lead">
           I am a full-stack F# developer – a functional-first, cross-paradigm
           <br />
-          language from the .NET development stack.
+          programming language from the .NET development stack.
           <br />
-          I am looking to move over to the world of JavaScript, and I am looking for a
+          I am looking to move over to the world of Python and JavaScript. Ideally, a Django
           <br />
-          company in which growth is encouraged and rewarded.
+          backend and React/Redux frontend environment, but I am open to a variety of tech stacks.
           <br />
           I am a resourceful, attentive, and diligent potential employee who persistently
           <br />
