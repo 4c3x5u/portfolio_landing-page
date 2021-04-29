@@ -11,7 +11,7 @@
   },
   {
     "icon": "fab fa-node",
-    "name": "Node.js – Express",
+    "name": "Node.js  (Express)",
     "description": "JavaScript Backend Development"
   },
   {
@@ -25,8 +25,8 @@
     "description": "Postgres, MSSQL, MongoDB, SQLite..."
   },
   {
-    "icon": "fas fa-cogs",
-    "name": "TDD & BDD",
-    "description": "Unit, Integration and Functional Testing"
+    "icon": "fas fa-cloud",
+    "name": "Cloud Platforms",
+    "description": "Microsoft Azure, AWS (Beginner)"
   }
 ]

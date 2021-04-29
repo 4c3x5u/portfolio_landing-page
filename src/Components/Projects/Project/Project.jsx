@@ -4,13 +4,13 @@ import ProjectBody from './Body/ProjectBody';
 
 const Project = ({ projectProps }) => {
   const image = (
-    <div className="Image col-12 col-xl-5 bg-dark" />
+    <div className="Image col-12 col-xl-5 bg-light" />
   );
   const body = (
     <ProjectBody
       title={projectProps.title}
       description={projectProps.description}
-      liveLink={projectProps.liveLink}
+      liveLink={projectProps.id !== 'LandingPage' && projectProps.liveLink}
       codeLink={projectProps.codeLink}
     />
   );
