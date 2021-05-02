@@ -20,8 +20,8 @@ const BlogPosts = () => (
           <BlogPost key={blogPost.id} projectProps={{ ...blogPost }} />
         ))}
         <a
-          className={'ViewAllButton btn btn-dark py-2 px-3 mt-4 mb-5'
-                     + 'd-inline-block col-10 offset-1'}
+          className={'ViewAllButton btn btn-dark py-2 px-3 mt-5 mb-5 mx-auto'
+                     + ' d-inline-block col-3'}
           href="https://www.compositional-it.com/news-blog/author/alican/"
           target="_blank"
           rel="noreferrer"

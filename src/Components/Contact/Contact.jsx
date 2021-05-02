@@ -8,7 +8,7 @@ const Contact = () => (
   >
     <h4
       className={'Header col-6 offset-3 col-lg-4 offset-lg-4 col-xl-2'
-                 + ' offset-xl-5 text-center font-weight-bold mt-0 mb-3 pb-1'}
+                 + ' offset-xl-5 text-center font-weight-bold mt-0 mb-3'}
     >
       Contact
     </h4>
@@ -21,7 +21,8 @@ const Contact = () => (
         className={'Social btn btn-dark d-flex justify-content-center'
                    + 'align-items-center rounded my-0'}
       >
-        <i className="Icon fab fa-github fa-3x" />
+        <i className="Icon fab fa-github mr-1" />
+        GitHub
       </a>
       <a
         href="https://www.linkedin.com/in/4c3x5u"
@@ -30,7 +31,8 @@ const Contact = () => (
         className={'Social btn btn-dark d-flex justify-content-center'
                    + ' align-items-center rounded my-0'}
       >
-        <i className="Icon fab fa-linkedin-in fa-3x" />
+        <i className="Icon fab fa-linkedin mr-1" />
+        LinkedIn
       </a>
       <a
         href="mailto:alicandev@icloud.com"
@@ -39,7 +41,8 @@ const Contact = () => (
         className={'Social btn btn-dark d-flex justify-content-center'
                    + 'align-items-center rounded my-0'}
       >
-        <i className="Icon fas fa-at fa-3x" />
+        <i className="Icon fas fa-at mr-1" />
+        Email
       </a>
     </div>
 

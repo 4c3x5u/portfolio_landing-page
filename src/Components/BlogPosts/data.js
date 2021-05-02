@@ -4,7 +4,7 @@ export default [
     title: 'Working with React Components in F#',
     description: "If you already consume React libraries from other developers in your Elmish apps, writing your own F# wrappers around React components might be just what you need to take the next step towards being a full stack F# developer. Luckily, it's made very...",
     link: 'https://www.compositional-it.com/news-blog/working-with-react-components-in-fsharp/',
-    htAlign: true,
+    rightAlign: true,
   },
   {
     id: 'RoutingAndNavigationInElmishSPAs',
