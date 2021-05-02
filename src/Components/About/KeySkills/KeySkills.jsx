@@ -19,7 +19,7 @@ const KeySkills = () => (
         </div>
 
         <a id="ProjectsButton" href="#Projects" className="btn btn-outline-light py-2 px-3 mt-3 mb-2 mx-2 d-inline-block">
-          <span className="Text h3 mb-0">See Projects</span>
+          <span className="Text h3 mb-0">View Projects</span>
         </a>
         <a id="CvButton" className="btn btn-dark py-2 px-3 mt-3 mb-2 mx-2 mx-2" href="~/Images/DemirtasResume.pdf" download>
           <span className="Text h3 mb-0">Download CV</span>
