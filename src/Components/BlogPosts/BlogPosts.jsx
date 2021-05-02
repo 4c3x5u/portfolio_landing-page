@@ -1,14 +1,16 @@
 import React from 'react';
-import './BlogPosts.sass';
 import BlogPost from './BlogPost/BlogPost';
-import data from './data.json';
+
+import data from './data';
+
+import './BlogPosts.sass';
 
 const BlogPosts = () => (
   <section id="BlogPosts" className="pt-5 pb-3">
     <div className="SectionContainer container">
       <div className="SectionRow row">
         <div className="Header col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 text-center mb-4 mt-2">
-          <h4 className="Text pb-2 mt-2">Blog Posts</h4>
+          <h4 className="Text pb-0 pt-1">Blog Posts</h4>
         </div>
         <div className="Filler col-md-2 col-xl-3" />
         {data.map((blogPost) => (

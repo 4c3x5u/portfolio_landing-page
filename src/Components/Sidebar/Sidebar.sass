@@ -58,6 +58,8 @@ body
     -o-transition-duration: 0.5s
     transition-duration: 0.5s
 
+  a
+    text-decoration: none !important
 
   .Item
     font-family: Slabo, serif
@@ -66,6 +68,13 @@ body
     width: 100%
     color: #f9f9f9
     margin: 1rem 0 1rem 0
+    text-decoration: none !important
+    text-underline: none !important
 
-    &:hover
-      text-decoration: none
+    &:hover, &.on
+      color: #1f4c52
+      background: #f9f9f9
+      -webkit-transition-duration: 0.5s
+      -moz-transition-duration: 0.5s
+      -o-transition-duration: 0.5s
+      transition-duration: 0.5s

@@ -11,6 +11,7 @@ const Sidebar = () => {
   const toggleNav = () => {
     toggler.current.classList.toggle('on');
     nav.current.classList.toggle('on');
+    // eslint-disable-next-line no-undef
     document.body.classList.toggle('on');
   };
   return (

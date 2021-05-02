@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const NavigationLink = ({ href, text }) => (
   <a href={href}>
-    <div className="Item hvr-shadow-radial">{text}</div>
+    <div className="Item">{text}</div>
   </a>
 );
 
