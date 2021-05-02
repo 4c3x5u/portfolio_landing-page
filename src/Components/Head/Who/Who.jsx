@@ -7,11 +7,18 @@ const Who = () => {
   }, []);
   return (
     <>
-      <a className="AboutButton animated btn btn-outline-light py-2 px-3 d-sm-none" href="#About">
+      <a
+        className={'AboutButton animated btn btn-outline-light py-2 px-3'
+                   + ' d-sm-none'}
+        href="#About"
+      >
         <span className="Text h3">Who?!</span>
       </a>
       <div ref={animatedInner} className="InnerAboutAnimation">
-        <a className="AboutButton animated btn btn-outline-light py-2 px-3" href="#About">
+        <a
+          className="AboutButton animated btn btn-outline-light py-2 px-3"
+          href="#About"
+        >
           <span className="Text h3">Who?!</span>
         </a>
       </div>

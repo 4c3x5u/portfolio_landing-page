@@ -8,10 +8,16 @@ const FullName = ({ fullName }) => {
   ), []);
   return (
     <>
-      <h1 ref={animated} className="FullName text-light d-sm-none d-block mb-0">
+      <h1
+        ref={animated}
+        className="FullName text-light d-sm-none d-block mb-0"
+      >
         {fullName}
       </h1>
-      <h1 ref={animated} className="FullName animated text-light d-none d-sm-block mb-0">
+      <h1
+        ref={animated}
+        className="FullName animated text-light d-none d-sm-block mb-0"
+      >
         {fullName}
       </h1>
     </>

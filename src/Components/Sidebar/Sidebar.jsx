@@ -16,7 +16,12 @@ const Sidebar = () => {
   };
   return (
     <div id="Sidebar">
-      <button type="button" ref={toggler} className="Toggler btn btn-dark" onClick={toggleNav}>
+      <button
+        type="button"
+        ref={toggler}
+        className="Toggler btn btn-dark"
+        onClick={toggleNav}
+      >
         <i className="Icon far fa-compass fa-3x" />
       </button>
       <div ref={nav} className="Nav d-flex align-items-center text-center">

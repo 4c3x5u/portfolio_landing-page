@@ -14,11 +14,17 @@ const Bio = () => (
           <br />
           programming language from the .NET development stack.
           <br />
-          I am looking to move over to the world of Python and JavaScript. Ideally, a Django
+          I am looking to move over to the world of Python and JavaScript.
+          {' '}
+          Ideally, a Django
           <br />
-          backend and React/Redux frontend environment, but I am open to a variety of tech stacks.
+          backend and React/Redux frontend environment, but I am open to a
+          {' '}
+          variety of tech stacks.
           <br />
-          I am a resourceful, attentive, and diligent potential employee who persistently
+          I am a resourceful, attentive, and diligent potential employee who
+          {' '}
+          persistently
           <br />
           seeks excellence, growth, and contribution.
         </span>

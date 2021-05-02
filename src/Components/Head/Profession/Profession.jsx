@@ -8,10 +8,16 @@ const Profession = ({ profession }) => {
   ), []);
   return (
     <>
-      <h2 ref={animated} className="Profession d-sm-none d-block text-light mt-0 pb-1">
+      <h2
+        ref={animated}
+        className="Profession d-sm-none d-block text-light mt-0 pb-1"
+      >
         {profession}
       </h2>
-      <h2 ref={animated} className="Profession animated d-none d-sm-block text-light mt-0 pb-1">
+      <h2
+        ref={animated}
+        className="Profession animated d-none d-sm-block text-light mt-0 pb-1"
+      >
         {profession}
       </h2>
     </>

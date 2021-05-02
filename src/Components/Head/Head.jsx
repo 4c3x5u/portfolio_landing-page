@@ -6,7 +6,10 @@ import Who from './Who/Who';
 import './Head.sass';
 
 const Head = () => (
-  <section id="Head" className="d-flex justify-content-center align-items-center">
+  <section
+    id="Head"
+    className="d-flex justify-content-center align-items-center"
+  >
     <article className="Main d-block text-center pb-5">
       <FullName fullName="Alican Demirtas" />
       <Profession profession="Full-Stack Developer" />
