@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project/Project';
 
-import data from './data.json';
+import data from './data';
 
 import './Projects.sass';
 

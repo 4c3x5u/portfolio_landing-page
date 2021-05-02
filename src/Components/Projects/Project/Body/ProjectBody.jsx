@@ -13,7 +13,7 @@ const ProjectBody = ({
       target="_blank"
       rel="noreferrer"
     >
-      <span className="Text h5 mb-0 text-light">
+      <span className={`Text h5 mb-0 ${!liveLink && 'text-light'}`}>
         <i className="fas fa-globe" />
         {' '}
         Demo
