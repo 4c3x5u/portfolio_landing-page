@@ -36,7 +36,7 @@ const KeySkills = () => (
         <a
           id="CvButton"
           className="btn btn-dark py-2 px-3 mt-3 mb-2 mx-2 mx-2"
-          href="~/Images/DemirtasResume.pdf"
+          href={`${process.env.PUBLIC_URL}/Alican Demirtas.pdf`}
           download
         >
           <span className="Text h3 mb-0">Download CV</span>
