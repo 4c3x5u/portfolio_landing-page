@@ -12,7 +12,7 @@ const Project = ({
     <ProjectBody
       title={title}
       description={description}
-      liveLink={id !== 'LandingPage' && liveLink}
+      liveLink={id !== 'LandingPage' ? liveLink : ''}
       codeLink={codeLink}
     />
   );

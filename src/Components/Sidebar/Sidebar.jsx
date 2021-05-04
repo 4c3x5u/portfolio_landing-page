@@ -34,6 +34,7 @@ const Sidebar = () => {
         <div className="Links d-block w-100">
           {navLinkNames.map((name) => (
             <NavigationLink
+              key={name}
               text={name}
               href={`#${name}`}
               active={activeLink === name}
