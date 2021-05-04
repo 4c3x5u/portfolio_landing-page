@@ -1,4 +1,4 @@
-import React, { createRef, useEffect } from 'react';
+import React, { useState, useEffect, createRef } from 'react';
 import './Sidebar.sass';
 import NavigationLink from './NavigationLink/NavigationLink';
 
@@ -8,6 +8,12 @@ const Sidebar = () => {
   useEffect(() => {
     toggler.current.classList.add('animated', 'wobble', 'delay-2s');
   }, []);
+
+  const navLinkNames = ['Head', 'About', 'Projects', 'BlogPosts', 'Contact'];
+  const [activeLink, setActiveLink] = useState('');
+  // eslint-disable-next-line no-undef
+  window.onscroll = () => setActiveLink('');
+
   const toggleNav = () => {
     toggler.current.classList.toggle('on');
     nav.current.classList.toggle('on');
@@ -26,11 +32,14 @@ const Sidebar = () => {
       </button>
       <div ref={nav} className="Nav d-flex align-items-center text-center">
         <div className="Links d-block w-100">
-          <NavigationLink href="#Head" text="Home" />
-          <NavigationLink href="#About" text="About" />
-          <NavigationLink href="#Projects" text="Projects" />
-          <NavigationLink href="#BlogPosts" text="Blog Posts" />
-          <NavigationLink href="#Contact" text="Contact" />
+          {navLinkNames.map((name) => (
+            <NavigationLink
+              text={name}
+              href={`#${name}`}
+              active={activeLink === name}
+              setActive={() => setTimeout(() => setActiveLink(name), 1000)}
+            />
+          ))}
         </div>
       </div>
     </div>
