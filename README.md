@@ -1,5 +1,6 @@
 # My Developer Portfolio — Landing Page
-![Landing Page – UI Screenshot](https://i.ibb.co/P1Y42K7/Screenshot-2021-05-04-at-16-41-59.png)
+<img width="1524" alt="Screenshot 2021-05-04 at 16 41 59" src="https://user-images.githubusercontent.com/62238518/117032022-0f645580-acf9-11eb-9606-5fc3387c0b5b.png">
+
 
 ## The Purpose
 This React application serves as the landing page of my developer portfolio. I have decided to go with the React option to give myself even more of an **exposure to React**, since React is my favourite library when it comes to building frontend applications.
