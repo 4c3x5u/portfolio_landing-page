@@ -17,7 +17,15 @@ const BlogPosts = () => (
         </div>
         <div className="Filler col-md-2 col-xl-3" />
         {data.map((blogPost) => (
-          <BlogPost key={blogPost.id} projectProps={{ ...blogPost }} />
+
+          <BlogPost
+            key={blogPost.id}
+            id={blogPost.id}
+            title={blogPost.title}
+            description={blogPost.description}
+            link={blogPost.link}
+            rightAlign={blogPost.rightAlign}
+          />
         ))}
         <a
           className={'ViewAllButton btn btn-dark py-2 px-3 mt-5 mb-5 mx-auto'

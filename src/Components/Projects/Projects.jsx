@@ -1,8 +1,6 @@
 import React from 'react';
 import Project from './Project/Project';
-
 import data from './data';
-
 import './Projects.sass';
 
 const Projects = () => (
@@ -17,7 +15,15 @@ const Projects = () => (
         </div>
         <div className="Filler col-md-2 col-xl-3" />
         {data.map((project) => (
-          <Project key={project.id} projectProps={{ ...project }} />
+          <Project
+            key={project.id}
+            id={project.id}
+            title={project.title}
+            description={project.description}
+            liveLink={project.liveLink}
+            codeLink={project.codeLink}
+            rightAlign={project.rightAlign}
+          />
         ))}
       </div>
     </div>

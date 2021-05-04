@@ -18,6 +18,7 @@ const KeySkills = () => (
         <div className="SkillsRow row mb-5 pb-3">
           {data.map((skill) => (
             <Skill
+              key={skill.name}
               icon={skill.icon}
               name={skill.name}
               description={skill.description}

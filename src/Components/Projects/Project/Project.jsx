@@ -2,23 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectBody from './Body/ProjectBody';
 
-const Project = ({ projectProps }) => {
+const Project = ({
+  id, title, description, liveLink, codeLink, rightAlign,
+}) => {
   const image = (
     <div className="Image col-12 col-xl-5 bg-light" />
   );
   const body = (
     <ProjectBody
-      title={projectProps.title}
-      description={projectProps.description}
-      liveLink={projectProps.id !== 'LandingPage' && projectProps.liveLink}
-      codeLink={projectProps.codeLink}
+      title={title}
+      description={description}
+      liveLink={id !== 'LandingPage' && liveLink}
+      codeLink={codeLink}
     />
   );
   return (
-    <article id={projectProps.id} className="col-10 offset-1 mt-4">
+    <article id={id} className="col-10 offset-1 mt-4">
       <div className="Project row">
         {
-          (projectProps.rightAlign)
+          (rightAlign)
             ? (
               <>
                 {' '}
@@ -44,14 +46,12 @@ const Project = ({ projectProps }) => {
 };
 
 Project.propTypes = {
-  projectProps: {
-    id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    liveLink: PropTypes.string.isRequired,
-    codeLink: PropTypes.string.isRequired,
-    rightAlign: PropTypes.bool.isRequired,
-  }.isRequired,
+  id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  liveLink: PropTypes.string.isRequired,
+  codeLink: PropTypes.string.isRequired,
+  rightAlign: PropTypes.bool.isRequired,
 };
 
 export default Project;

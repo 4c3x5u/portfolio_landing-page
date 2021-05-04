@@ -2,22 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BlogPostBody from './Body/BlogPostBody';
 
-const BlogPost = ({ projectProps }) => {
+const BlogPost = ({
+  id, title, description, link, rightAlign,
+}) => {
   const image = (
     <div className="Image col-12 col-xl-5 bg-dark" />
   );
   const body = (
     <BlogPostBody
-      title={projectProps.title}
-      description={projectProps.description}
-      link={projectProps.link}
+      title={title}
+      description={description}
+      link={link}
     />
   );
   return (
-    <article id={projectProps.id} className="col-10 offset-1 mt-4">
+    <article id={id} className="col-10 offset-1 mt-4">
       <div className="Project row">
         {
-          (projectProps.rightAlign)
+          (rightAlign)
             ? (
               <>
                 {' '}
@@ -43,13 +45,11 @@ const BlogPost = ({ projectProps }) => {
 };
 
 BlogPost.propTypes = {
-  projectProps: {
-    id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-    rightAlign: PropTypes.bool.isRequired,
-  }.isRequired,
+  id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  rightAlign: PropTypes.bool.isRequired,
 };
 
 export default BlogPost;
