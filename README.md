@@ -1,9 +1,8 @@
 # My Developer Portfolio — Landing Page
-<img width="1524" alt="Screenshot 2021-05-04 at 16 41 59" src="https://user-images.githubusercontent.com/62238518/117032022-0f645580-acf9-11eb-9606-5fc3387c0b5b.png">
-
+<img width="2472" alt="Screenshot 2021-05-06 at 16 38 03" src="https://user-images.githubusercontent.com/62238518/117326401-84ff2b80-ae89-11eb-936c-be989d53ddc4.png">
 
 ## The Purpose
-This React application serves as the landing page of my developer portfolio. I have decided to go with the React option to give myself even more of an **exposure to React**, since React is my favourite library when it comes to building frontend applications.
+This React application serves as the landing page of my developer portfolio. I decided to go with the React option to give myself even more **exposure to React** since React is my favourite library when it comes to building frontend applications.
 
 ## Running the App
 ### Requirements
