@@ -22,11 +22,9 @@ const Bio = () => (
           {' '}
           variety of tech stacks.
           <br />
-          I am a resourceful, attentive, and diligent potential employee who
-          {' '}
-          persistently
+          I am a resourceful, attentive, and diligent potential employee,
           <br />
-          seeks excellence, growth, and contribution.
+          as well as a dynamic team player who loves working with others.
         </span>
       </div>
 
