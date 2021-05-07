@@ -18,7 +18,7 @@ const Bio = () => (
           {' '}
           Ideally, a Django
           <br />
-          backend and a React/Redux frontend environment, but I am open to a
+          backend and React/Redux frontend environment, but I am open to a
           {' '}
           variety of tech stacks.
           <br />
