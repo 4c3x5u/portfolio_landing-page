@@ -9,7 +9,7 @@ const Sidebar = () => {
     toggler.current.classList.add('animated', 'wobble', 'delay-2s');
   }, []);
 
-  const navLinkNames = ['Head', 'About', 'Projects', 'BlogPosts', 'Contact'];
+  const navLinkNames = ['Head', 'About', 'Projects', 'Blog Posts', 'Contact'];
   const [activeLink, setActiveLink] = useState('');
   // eslint-disable-next-line no-undef
   window.onscroll = () => setActiveLink('');
