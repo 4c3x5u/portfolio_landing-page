@@ -36,9 +36,9 @@ const Sidebar = () => {
             <NavigationLink
               key={name}
               text={name}
-              href={`#${name}`}
-              active={activeLink === name}
-              setActive={() => setTimeout(() => setActiveLink(name), 1000)}
+              href={`#${name.replace(' ', '')}`}
+              active={activeLink === name.replace(' ', '')}
+              setActive={() => setTimeout(() => setActiveLink(name.replace(' ', '')), 1000)}
             />
           ))}
         </div>
