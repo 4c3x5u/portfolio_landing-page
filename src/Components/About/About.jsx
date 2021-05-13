@@ -1,7 +1,7 @@
 import React from 'react';
-import './About.sass';
 import KeySkills from './KeySkills/KeySkills';
 import Bio from './Bio/Bio';
+import './About.sass';
 
 const About = () => (
   <section id="About" className="py-5">
