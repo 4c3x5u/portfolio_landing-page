@@ -10,7 +10,7 @@ const Bio = () => (
 
       <div id="Bio" className="col-10 offset-1 pb-2 pt-1 mt-2 mb-4">
         <span className="Text lead">
-          I am a full-stack F# developer – a functional-first, cross-paradigm
+          I am a full-stack F# developer — a functional-first, cross-paradigm
           <br />
           programming language from the .NET development stack.
           <br />

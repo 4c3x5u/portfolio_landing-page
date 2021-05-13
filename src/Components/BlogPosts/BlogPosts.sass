@@ -8,25 +8,32 @@
   background-position: center
   background-size: cover
   background-repeat: no-repeat
+
   .Header
-    color: #1f4c52
-    background: rgb(255,255,255)
+    color: #082043
     background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(247,247,247,1) 30%, rgba(247,247,247,1) 70%, rgba(255,255,255,0) 100%)
+
     .Text
       font-family: Slabo, serif
       font-size: 40pt
       font-weight: bold
+
   .Name
-    color: #1f4c52
+    color: #082043
     font-family: Slabo, serif
     font-weight: bold
     font-size: 20pt
 
+  .Project
+    .Image, .Body
+      min-height: 18rem
+      outline: solid #082043
+      font-family: 'Roboto Condensed', serif
+      color: #050B1C
+
 .ViewButton
   border: 1px solid #f9f9f9
-  background: rgb(112,140,144)
-  background: radial-gradient(circle, rgba(112,140,144,1) 0%, rgba(31,76,82,1) 25%, rgba(35,35,37,1) 100%)
-  background-color: #1f4c52
+  background: radial-gradient(circle, #050B1C 0%, #082043 30%, #2F5E93 100%), #2F5E93
   box-shadow: 0.15rem 0.2rem 0.1rem black
   -webkit-transition-duration: 0.5s
   -moz-transition-duration: 0.5s
@@ -34,19 +41,12 @@
   transition-duration: 0.5s
   font-family: Bitter, serif
   &:hover
-    color: #1f4c52
+    color: #050B1C
     background: #f9f9f9
     -webkit-transition-duration: 0.5s
     -moz-transition-duration: 0.5s
     -o-transition-duration: 0.5s
     transition-duration: 0.5s
-
-.Project
-  .Image, .Body
-    min-height: 18rem
-    outline: solid
-    outline-color: #1f4c52
-    font-family: 'Roboto Condensed', serif
 
 #MyJourneyToFSharp .Image
   background-image: url("./img/MyJourneyToFSharp.jpg")
@@ -74,18 +74,15 @@
 
 .ViewAllButton
   border: 1px solid #f9f9f9
-  background: rgb(112,140,144)
-  background: radial-gradient(circle, rgba(112,140,144,1) 0%, rgba(31,76,82,1) 25%, rgba(35,35,37,1) 100%)
-  background-color: #1f4c52
+  background: radial-gradient(circle, #050B1C 0%, #082043 30%, #2F5E93 100%), #2F5E93
   box-shadow: 0.15rem 0.2rem 0.1rem black
   -webkit-transition-duration: 0.5s
   -moz-transition-duration: 0.5s
   -o-transition-duration: 0.5s
   transition-duration: 0.5s
   font-family: Bitter, serif
-  margin-bottom: 4rem
   &:hover
-    color: #1f4c52
+    color: #050B1C
     background: #f9f9f9
     -webkit-transition-duration: 0.5s
     -moz-transition-duration: 0.5s

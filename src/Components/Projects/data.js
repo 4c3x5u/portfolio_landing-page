@@ -13,7 +13,7 @@ export default [
     description:
       "A full-stack JavaScript application (MERN Stack) that I've built in an effort to pour all of my JavaScript knowledge into a single coherent project. It simulates the workflow of a pizza store app where both guests and members can order online.",
     liveLink: 'https://blazinpizza.co',
-    codeLink: 'https://github.com/alicandev/portfolio_pizza-store',
+    codeLink: 'https://github.com/alicandev/portfolio_blazin-pizza-co',
     rightAlign: false,
   },
   {
@@ -29,7 +29,7 @@ export default [
     title: 'Landing Page',
     description: 'The very page you are visiting right now is a React application! Even though it fundamentally is a static website, I chose this approach to give myself even more of an exposure to React, since React is my "go-to" when it comes to frontend development.',
     liveLink: '#',
-    codeLink: 'https://github.com/alicandev/portfolio_landing',
+    codeLink: 'https://github.com/alicandev/portfolio_landing-page',
     rightAlign: false,
   },
 ];

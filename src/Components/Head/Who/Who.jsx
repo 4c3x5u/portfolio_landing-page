@@ -6,7 +6,7 @@ const Who = () => {
     animatedInner.current.classList.add('animated', 'fadeInUp', 'delay-1s');
   }, []);
   return (
-    <div ref={animatedInner} className="InnerAboutAnimation">
+    <div ref={animatedInner} className="InnerAboutAnimation mt-3">
       <a
         className="AboutButton animated btn btn-outline-light py-2 px-3"
         href="#About"
