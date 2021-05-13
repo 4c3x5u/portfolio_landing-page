@@ -4,8 +4,8 @@ import data from './data';
 import './Projects.sass';
 
 const Projects = () => (
-  <section id="Projects" className="pt-5 pb-3">
-    <div className="SectionContainer container">
+  <section id="Projects" className="pt-5 pb-5">
+    <div className="SectionContainer container pt-5 pb-5">
       <div className="SectionRow row mb-5">
         <div
           className={'Header col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3'
