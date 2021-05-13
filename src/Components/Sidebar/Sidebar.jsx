@@ -1,6 +1,6 @@
 import React, { useState, useEffect, createRef } from 'react';
-import './Sidebar.sass';
 import NavigationLink from './NavigationLink/NavigationLink';
+import './Sidebar.sass';
 
 const Sidebar = () => {
   const toggler = createRef();
